@@ -8,9 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>TechStore SESI</h1>    
-       
-    
+        <h1>TechStore SESI</h1>        
         <section class="formulario">
             <h3>Dados de Vendas</h3>
             <input type="text" id="inputNome" placeholder="Nome do Cliente">
@@ -26,7 +24,15 @@
             <button onclick="executarSistema()">Finalizar Venda</button>
         </section>
             
+        <hr>
+
+        <section id="feedback">
+            <p id="mensagem-autorizacao">Preencha os dados acima.</p>
+            <ul id="lista-estoque"></ul>
+            <div id="relatorio-final" class="card" style="display: none;">
+            </div>
+        </section>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
